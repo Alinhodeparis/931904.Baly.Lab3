@@ -1,0 +1,103 @@
+<!DOCTYPE html >
+< html  lang =" en " dir =" ltr " >
+  < tête >
+    < meta  charset =" utf-8 " >
+    < title > Tâche 3 </ title >
+    < style  media =" écran " >
+    html {
+      font-family : Genève , Arial;
+      marge : 0 px ;
+      hauteur : 100 % ;
+    }
+    corps {
+      marge :  0 ;
+      hauteur : 100 % ;
+      hauteur min :  100 % ;
+      position : relative ;
+    }
+    en-tête {
+      marge :  0 ;
+      couleur : blanc ;
+      text-align : center;
+      remplissage :  10 px ;
+      taille de police :  24 px ;
+      background-color : vert;
+    }
+      principal {
+
+        position : relative ;
+	      largeur max :  800 px ;
+	      background-color : blanc;
+	      min-height :  calc ( 100 vh  -  81 px );
+	      marge-gauche : auto;
+	      marge-droite : auto;
+      }
+      . menu {
+        marge : 0 ;
+        remplissage :  30 px  30 px  30 px  50 px ;
+        largeur :  120 px ;
+        list-style-type : aucun;
+        texte-décoration : souligné;
+        couleur : blanc ;
+        position : absolue;
+        flotteur : gauche ;
+        couleur de fond : rouge ;
+        hauteur : calc ( 100 %  -  60 px );
+
+      }
+      li {
+        marge en bas :  10 px ;
+        largeur :  130 px ;
+        remplissage : 5 px ;
+      }
+      li : survoler {
+        background-color : vert;
+      }
+      . texte {
+        marge supérieure :  0 ;
+        rembourrage haut :  20 px ;
+        marge-gauche :  250 px ;
+        background-color : blanc;
+	      text-align : justifier ;
+	      largeur max :  calc ( 100 %  -  260 px );
+	      hauteur de ligne :  1,25 em ;
+      }
+      p :: sélection {
+        background-color : vert;
+        couleur : blanc ;
+      }
+      p :: première lettre {
+        taille de police : 25 px ;
+        couleur : rouge ;
+      }
+      pied de page {
+
+        couleur : blanc ;
+        text-align : center;
+        couleur de fond : noir;
+        remplissage : 6 px ;
+        taille de police :  18 px ;
+      }
+    </ style >
+  </ tête >
+  < corps >
+    < en- tête >
+      Entête
+    </ en- tête >
+    < principal >
+        < ul  class =" menu " >
+          < li > Page principale </ li >
+          < li > Deuxième page </ li >
+          < li > Une autre page </ li >
+          < li > Plus de pages au dieu des pages </ li >
+          < li > La dernière page </ li >
+        </ ul >
+      < p  classe =" texte " >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione eos iusto provident nihil, laboriosam esse ab minima est, in sit enim officia sunt sapiente vitae illo, dolorem! Sint debitis nesciunt ducimus ab magnam necessitatibus asperiores enim voluptate, dolores reiciendis iure. Nisi odio in consectetur inventore enim quasi ipsam velit eius eligendi quis eaque iusto suscipit quod accusamus temporibus molestiae, facere, laborum quos, rem repousse earum erreur expedita consequatur. Illum eos, debitis distinctio porro maiores velit quia accusantium quae voluptatem quidem minima, facilis impedit ut. Odio praesentium ea itaque numquam consectetur temporibus facilis qui magni velit laborum dicta earum beatae laudantium voluptatem sed deleniti dolores alias atque, repudiandae unde. Mollitia molestiae dolore tenetur, rem illum eveniet ratione, laboriosam repudiandae inventore expedita veniam asperiores non excepturi suscipit quod corrupti. Laborum debitis eveniet maxime vitae aliquid nulla sit fugiat voluptatem, soluta laudantium ad voluptatum in vel non sequi labore. Culpa autem, corporis, nobis cupiditate laboriosam numquam, itaque natus aperiam ut deserunt adipisci magni debitis fugit eum temporibus voluptatum ipsam rem commodi. Autem aliquam dolorem earum. Beatae reiciendis incidunt molestiae soluta earum, expedita odit tempora vel eveniet provident ab aut vero dolor assumenda, minus quia saepe nulla a id. Quia corrupti, non velit ! soluta laudantium ad voluptatum in vel non sequi labore. Culpa autem, corporis, nobis cupiditate laboriosam numquam, itaque natus aperiam ut deserunt adipisci magni debitis fugit eum temporibus voluptatum ipsam rem commodi. Autem aliquam dolorem earum. Beatae reiciendis incidunt molestiae soluta earum, expedita odit tempora vel eveniet provident ab aut vero dolor assumenda, minus quia saepe nulla a id. Quia corrupti, non velit ! soluta laudantium ad voluptatum in vel non sequi labore. Culpa autem, corporis, nobis cupiditate laboriosam numquam, itaque natus aperiam ut deserunt adipisci magni debitis fugit eum temporibus voluptatum ipsam rem commodi. Autem aliquam dolorem earum. Beatae reiciendis incidunt molestiae soluta earum, expedita odit tempora vel eveniet provident ab aut vero dolor assumenda, minus quia saepe nulla a id. Quia corrupti, non velit !
+      </ p >
+    </ principal >
+    < pied de page >
+      Bas de page
+    </ pied de page >
+  </ corps >
+</ html >
